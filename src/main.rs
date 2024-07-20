@@ -8,7 +8,7 @@ use tokio::task;
 // Max IP Port.
 const MAX: u16 = 65535;
 
-// Address fallback.
+// Address fallback
 const IPFALLBACK: IpAddr = IpAddr::V4(Ipv4Addr::new(127, 0, 0, 1));
 
 // CLI Arguments.
