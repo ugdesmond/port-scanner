@@ -84,7 +84,7 @@ async fn main() {
         out.push(p);
     }
 
-    println!("");
+    println!(" {}",opts.address);
     out.sort();
     for v in out {
         // Iterate through the outputs and print them out as being open.
